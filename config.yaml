@@ -1,0 +1,92 @@
+captcha:
+    height: 80
+    width: 240
+    length: 6
+    max_skew: 0.7
+    dot_count: 80
+email:
+    host: smtp.qq.com
+    port: 465
+    from: 2739749308@qq.com
+    nickname: 发件人昵称
+    secret: pnjcbeyhykhldcjb
+    is_ssl: true
+es:
+    url: http://127.0.0.1:9200
+    username: ""
+    password: ""
+    is_console_print: true
+gaode:
+    enable: true
+    key: 55ed04a03e51dbba8f33ea9b3999cd44
+jwt:
+    access_token_secret: i8HQ7E2T0Z_osAMZEVQZzjTD4ngKVBQQzv_P67aWxDs=
+    refresh_token_secret: gPyFGT8j8eOVg4jKCpdm1FWvTIu5K3-1o5Y6fjEOsg4=
+    access_token_expiry_time: 2h
+    refresh_token_expiry_time: 7d
+    issuer: go_blog
+mysql:
+    host: 127.0.0.1
+    port: 3306
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db_name: blog_db
+    username: root
+    password: "123456"
+    max_idle_conns: 10
+    max_open_conns: 100
+    log_mode: info
+qiniu:
+    zone: z0
+    bucket: eriklin
+    img_path: https://image.xxxx/
+    access_key: SQSNAV45NUuOR__mUd9aWdWaw9tIMRhFvpKsfx0C
+    secret_key: XDdKG5p_-bNiTbESOv31wfkSangL-9dPufgl484W
+    use_https: true
+    use_cdn_domains: true
+qq:
+    enable: false
+    app_id: "000000000"
+    app_key: xxxxxxxxxxxxxxxx
+    redirect_uri: http://xxx.xxx/xxx
+redis:
+    address: 127.0.0.1:6379
+    password: ""
+    db: 0
+system:
+    host: 0.0.0.0
+    port: 8080
+    env: release
+    router_prefix: api
+    use_multipoint: true
+    sessions_secret: QlRPrveUCOhaAuovseakXZBMMKg-5aXPeHZcaHJ0Pes=
+    oss_type: local
+upload:
+    size: 20
+    path: uploads
+website:
+    logo: ""
+    full_logo: ""
+    title: 博客标题-Erik_LinX的个人博客
+    slogan: 博客标题
+    slogan_en: Blog Title
+    description: 博客描述：Erik_Lin的生活博客，第一个demo哈哈哈，也算是突破自己了hhh
+    version: 1.0.0
+    created_at: "2025-3-8"
+    icp_filing: icp备案号
+    public_security_filing: ""
+    bilibili_url: ""
+    gitee_url: ""
+    github_url: ""
+    name: Erik_LinX
+    job: 学生
+    address: 地球的某一处
+    email: 2739749308@qq.com
+    qq_image: ""
+    wechat_image: ""
+zap:
+    level: info
+    filename: log/go_blog.log
+    max_size: 200
+    max_backups: 30
+    max_age: 5
+    is_console_print: true
